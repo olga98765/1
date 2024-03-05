@@ -20,6 +20,7 @@ public class ex14 {
         } else if (BMI >= 40) {
             System.out.println("Twoje BMI to " + BMI + " Otyłość III stopnia");
         } else if (weight <= 0 || heightInMeters <= 0) {
+            // nie dziala warunek logiczny ||
             System.out.println(" Podaj prawidłowe liczby");
 
         }
