@@ -6,7 +6,8 @@ public class ex16 {
     public static void main(String[] args) {
    
 String text = "palindrom";
+char[] textToLetters = text.toCharArray();
 
-        System.out.println(text);
+        System.out.println(textToLetters[0]);
     }
 }
