@@ -5,7 +5,8 @@ public class ex16 {
 
     public static void main(String[] args) {
    
+String text = "palindrom";
 
-        System.out.println();
+        System.out.println(text);
     }
 }
