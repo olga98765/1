@@ -8,29 +8,24 @@ public class ex16 {
      */
     public static void main(String[] args) {
    
-String text = "malindrom";
+String text = "totl";
 char[] textToLetters = text.toCharArray();
 
-        System.out.println(textToLetters[0]);
+        // System.out.println(textToLetters[0]);
 
 
-if (textToLetters[0] == textToLetters[textToLetters.length-1]) {
+// if (textToLetters[0] == textToLetters[textToLetters.length-1]) {
 
 
 
 for(int i=0; i<textToLetters.length/2; i++) {
     if (textToLetters[i] != textToLetters[textToLetters.length - 1 - i]) {
         System.out.println("nie palindrom");//petla ma sie wykonac tyle razy ile wynosi polowa liter w slowie, a potem ma sprawdzic warunek pierwsza - ostatnia litera, druga - przedostatnia itp.
-}
-
-
-    System.out.println("palindrom");
-
 
 } else {
-        System.out.println("nie palindrom");
+        System.out.println("palindrom");
     }
     
-}
+// }
 
-}
+}}}
