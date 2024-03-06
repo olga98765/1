@@ -14,12 +14,11 @@ public class ex16 {
 
         for (int i = 0; i < wordToLetters.length / 2; i++) {
             if (wordToLetters[i] != wordToLetters[wordToLetters.length - 1 - i]) {
-                 isPalindrome = false;
-                 break;
+                isPalindrome = false;
+                break;
             }
-
         }
-         String text = isPalindrome ? "jest palindromem" : "nie jest palindromem";
-         System.out.println(text);
+        String text = isPalindrome ? "jest palindromem" : "nie jest palindromem";
+        System.out.println(text);
     }
 }
