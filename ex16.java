@@ -20,6 +20,7 @@ if (textToLetters[0] == textToLetters[textToLetters.length-1]) {
 
 for(int i=0; i<textToLetters.length/2; i++) {
 System.out.println(i);
+//petla ma sie wykonac tyle razy ile wynosi polowa liter w slowie, a potem ma sprawdzic warunek pierwsza - ostatnia litera, druga - przedostatnia itp.
 }
 
 
