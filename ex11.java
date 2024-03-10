@@ -4,19 +4,19 @@ public class ex11 {
 
     public static void main(String[] args) {
 
-        int x = 5;
-        int y = 10;
+        double x = 5.2;
+        double y = 10.1;
 
-        int add = x + y;
+        double add = x + y;
         System.out.println(add);
         
-        int sub = x - y;
+        double sub = x - y;
         System.out.println(sub);
 
-        int mult = x * y;
+        double mult = x * y;
         System.out.println(mult);
 
-        double div = (double) x / y;
+        double div = x / y;
         System.out.println(div);
     }
 }
