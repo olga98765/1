@@ -18,7 +18,7 @@ public class ex16 {
                 break;
             }
         }
-        String text = isPalindrome ? "jest palindromem" : "nie jest palindromem";
+        String text = isPalindrome ? "Podane słowo jest palindromem" : "Podane słowo nie jest palindromem";
         System.out.println(text);
     }
 }
