@@ -1,6 +1,6 @@
 # Laboratorium 1: Rozwiązania zadań
 
-To repozytorium zawiera rozwiązania zadań z **Tekst** pierwszych laboratoriów **Tekst** z programowania w języku Java. Rozwiązania są podzielone na pliki o nazwach odpowiadających numerom laboratoriów i zadań. Na przykład plik 11.java zawiera rozwiązanie pierwszego zadania z pierwszego laboratorium.
+To repozytorium zawiera rozwiązania zadań z ** pierwszych laboratoriów ** z programowania w języku Java. Rozwiązania są podzielone na pliki o nazwach odpowiadających numerom laboratoriów i zadań. Na przykład plik 11.java zawiera rozwiązanie pierwszego zadania z pierwszego laboratorium.
 
 ## Organizacja repozytorium:
 
