@@ -9,5 +9,5 @@ Nazwa repozytorium odpowiada numerowi laboratorium. W każdym repozytorium znajd
 ## Aby uruchomić kody źródłowe, należy:
 
 - Sklonować repozytorium do swojego komputera.
-- Otworzyć projekt w IDE (np. IntelliJ IDEA) lub w edytorze kodu z rozszerzeniami do programowania, takim jak Visual Studio Code (VSC).
-- Uruchomić klasę Main w odpowiednim pliku *.java
+- Otworzyć projekt w IDE (np. IntelliJ IDEA).
+- Uruchomić klasę w odpowiednim pliku *.java
