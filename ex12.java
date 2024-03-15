@@ -11,7 +11,6 @@ public class ex12 {
         }
 
         final double average = (double) sum / numbers.length;
-
         System.out.println(average);
     }
 }
