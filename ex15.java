@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class ex15 {
 
     public static void main(String[] args) {
-        int[] grades = { 1, 2, 3 };
-        int sum = Arrays.stream(grades).sum();
-        int average = sum / grades.length;
+        final int[] grades = { 1, 2, 3 };
+        final int sum = Arrays.stream(grades).sum();
+        final int average = sum / grades.length;
 
         switch (average) {
             case 1:

@@ -5,18 +5,18 @@ public class ex11 {
     public static void main(String[] args) {
 
         double x = 5.2;
-        double y = 10.1;
+        double y = 10.2;
 
-        double add = x + y;
+        final double add = x + y;
         System.out.println("Wynik dodawania " + add);
         
-        double sub = x - y;
+        final double sub = x - y;
         System.out.println("Wynik odejmowania " + sub);
 
-        double mult = x * y;
+        final double mult = x * y;
         System.out.println("Wynik mnożenia " + mult);
 
-        double div = x / y;
+        final double div = x / y;
         System.out.println("Wynik dzielenia " + div);
     }
 }

@@ -8,8 +8,8 @@ public class ex16 {
      */
     public static void main(String[] args) {
 
-        String word = "aliila";
-        char[] wordToLetters = word.toCharArray();
+        final String word = "aliila";
+        final char[] wordToLetters = word.toCharArray();
         boolean isPalindrome = true;
 
         for (int i = 0; i < wordToLetters.length / 2; i++) {
@@ -18,7 +18,7 @@ public class ex16 {
                 break;
             }
         }
-        String text = isPalindrome ? "Podane słowo jest palindromem" : "Podane słowo nie jest palindromem";
+        final String text = isPalindrome ? "Podane słowo jest palindromem" : "Podane słowo nie jest palindromem";
         System.out.println(text);
     }
 }

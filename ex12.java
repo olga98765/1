@@ -10,7 +10,7 @@ public class ex12 {
             sum += number;
         }
 
-        double average = (double) sum / numbers.length;
+        final double average = (double) sum / numbers.length;
 
         System.out.println(average);
     }
