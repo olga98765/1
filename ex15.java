@@ -2,15 +2,14 @@
 
 import java.util.Arrays;
 
-public class ex15 {
+public class Ex15 {
 
     public static void main(String[] args) {
         final int[] grades = { 1, 1, 3 };
         final int sum = Arrays.stream(grades).sum();
         final int average = sum / grades.length;
         final String result = "Twoja ocena to ";
-    
-    
+
         switch (average) {
             case 1:
                 System.out.println(result + "F");
@@ -34,11 +33,5 @@ public class ex15 {
                 System.out.println("Podaj prawidłowe oceny");
         }
 
-     
- 
     }
 }
-
-
-
-    

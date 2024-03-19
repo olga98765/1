@@ -1,7 +1,7 @@
 // 6) Napisz program, który sprawdza, czy dane słowo jest palindromem.
 // Link: https://pl.wikipedia.org/wiki/Palindrom
 
-public class ex16 {
+public class Ex16 {
 
     /**
      * @param args

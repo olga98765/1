@@ -1,6 +1,6 @@
 // 4) Napisz program obliczający wskaźnik masy ciała (BMI). BMI masa/wzrost
 
-public class ex14 {
+public class Ex14 {
 
     public static void main(String[] args) {
         double weight = 80;

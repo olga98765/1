@@ -1,11 +1,11 @@
 // 1) Wyświetl wynik dodawania, odejmowania, mnożenia oraz dzielenia 2 wartości.
 
-public class ex11 {
+public class Ex11 {
 
     public static void main(String[] args) {
 
-        double x = 5.2;
-        double y = 10.2;
+        final double x = 5.2;
+        final double y = 10.2;
 
         final double add = x + y;
         System.out.println("Wynik dodawania " + add);
