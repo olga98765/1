@@ -3,9 +3,9 @@
 public class Ex14 {
 
     public static void main(String[] args) {
-        double weight = 80;
-        double heightInMeters = 1.5;
-        double BMI = Math.round((weight / (heightInMeters * heightInMeters)) * 10) / 10.0;
+        final double weight = 40;
+        final double heightInMeters = 1.5;
+        final double BMI = Math.round((weight / (heightInMeters * heightInMeters)) * 10) / 10.0;
 
         if ((weight <= 0 || weight > 300 )|| (heightInMeters <= 0 || heightInMeters > 3)) {
             System.out.println("Podaj prawidłowe liczby");
