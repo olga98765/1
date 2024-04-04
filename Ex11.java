@@ -7,10 +7,10 @@ public class Ex11 {
 
     public static void main(String[] args) {
 
-        final double x = 5.2;
+        final double x = 5.24545;
         final double y = 10.2;
 
-        final BigDecimal mult = BigDecimal.valueOf(x).multiply(BigDecimal.valueOf(y));
+        final BigDecimal mult = BigDecimal.valueOf(x).multiply(BigDecimal.valueOf(y)).setScale(3, RoundingMode.UP);
         final BigDecimal div = BigDecimal.valueOf(x).divide(BigDecimal.valueOf(y),3,RoundingMode.UP);
         final BigDecimal add = BigDecimal.valueOf(x).add(BigDecimal.valueOf(y));
         final BigDecimal sub = BigDecimal.valueOf(x).subtract(BigDecimal.valueOf(y));
